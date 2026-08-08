@@ -1,0 +1,5 @@
+Error:
+I have typed the command for cloning git in the docker container and hence when i am trying to list the files in the xv6-riscv folder by using ls command its showing nothing.
+
+Solution:
+Instead of cloning it in the docker container i cloning it outside it i.e before the command git clone https://github.com/mit-pdos/xv6-riscv i have exited from the container by typing the command exit and now i have run the cloning command and it worked.
